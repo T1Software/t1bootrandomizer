@@ -14,7 +14,7 @@ If you're (justifiably) not a fan of `curl | bash`, you can run this:
 mkdir -p "$HOME/homebrew"
 mkdir -p "$HOME/.config/systemd/user"
 git clone https://github.com/T1Software/t1bootrandomizer "$HOME/homebrew/t1bootrandomizer"
-ln -sf "$HOME/homebrew/t1autobootvideo/t1bootrandomizer.service" "$HOME/.config/systemd/user/t1bootrandomizer.service"
+ln -sf "$HOME/homebrew/t1bootrandomizer/t1bootrandomizer.service" "$HOME/.config/systemd/user/t1bootrandomizer.service"
 systemctl --user daemon-reload
 systemctl --user enable --now t1bootrandomizer.service
 ```
