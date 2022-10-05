@@ -8,4 +8,4 @@ WantedBy=default.target
 Type=oneshot
 WorkingDirectory=/home/deck/homebrew/t1bootrandomizer
 # ExecStartPre=/bin/sleep 30
-ExecStart=/home/deck/homebrew/t1bootrandomizer/t1bootrandomizer.sh
+ExecStart=/bin/bash /home/deck/homebrew/t1bootrandomizer/t1bootrandomizer.sh
