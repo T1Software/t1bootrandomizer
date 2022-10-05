@@ -1,0 +1,11 @@
+[Unit]
+Description=t1bootrandomizerstartup
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/deck/homebrew/t1bootrandomizer
+# ExecStartPre=/bin/sleep 30
+ExecStart=/home/deck/homebrew/t1bootrandomizer/t1bootrandomizer.sh
