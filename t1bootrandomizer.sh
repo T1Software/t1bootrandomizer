@@ -18,7 +18,7 @@ ls |sort -R |tail -1 |while read file; do
 		echo $file chosen;		
 		if [ $file != $lastboot ];
 		then
-			cp $file /home/deck/.local/share/Steam/steamui/overrides/movies/deck_startup.webm ;
+			cp $file ~/.steam/root/config/uioverrides/movies/deck_startup.webm ;
 			echo $file > lastboot.txt;
 			echo $file "is not the same as "$lastboot "so were changing it to "$file;
 			echo $file "is not the same as "$lastboot "so were changing it to "$file >> log.txt
