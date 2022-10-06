@@ -7,7 +7,7 @@ mkdir -p "$HOME/.config/systemd/user"
 mkdir -p "~/.steam/root/config/uioverrides"
 mkdir -p "~/.steam/root/config/uioverrides/movies"
 
-# Clone the startup animations repository
+# Clone the t1bootrandomizer repository
 if [[ ! -d "$HOME/homebrew/t1bootrandomizer" ]]; then
   echo ":: Installing to $HOME/homebrew/t1bootrandomizer"
   git clone https://github.com/T1Software/t1bootrandomizer "$HOME/homebrew/t1bootrandomizer"
