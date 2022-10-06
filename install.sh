@@ -4,6 +4,7 @@
 echo ":: Creating required directories"
 mkdir -p "$HOME/homebrew"
 mkdir -p "$HOME/.config/systemd/user"
+mkdir -p "~/.steam/root/config/uioverrides/movies"
 
 # Clone the startup animations repository
 if [[ ! -d "$HOME/homebrew/t1bootrandomizer" ]]; then
