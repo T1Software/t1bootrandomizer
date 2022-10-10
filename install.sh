@@ -4,8 +4,8 @@
 echo ":: Creating required directories"
 mkdir -p "$HOME/homebrew"
 mkdir -p "$HOME/.config/systemd/user"
-mkdir -p "~/.steam/root/config/uioverrides"
-mkdir -p "~/.steam/root/config/uioverrides/movies"
+mkdir -p "/home/deck/.steam/root/config/uioverrides"
+mkdir -p "/home/deck/.steam/root/config/uioverrides/movies"
 
 # Clone the t1bootrandomizer repository
 if [[ ! -d "$HOME/homebrew/t1bootrandomizer" ]]; then
